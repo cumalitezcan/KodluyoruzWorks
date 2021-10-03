@@ -1,0 +1,164 @@
+body
+{
+  background-color: #D7E9F7;
+}
+
+.header
+{
+  text-align: center;
+}
+  
+.liste
+{
+  list-style-type: none;
+  text-align: center; 
+}
+
+.menu
+{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
+.li
+{
+  display: block;
+  text-align: center;
+  float: left;
+  border: 1px solid black;
+  margin-right: 30px;
+  padding: 10px;
+  color: black;
+  cursor: pointer;
+}
+.li:hover
+{
+  color:#CAB8FF;
+}
+
+.baslik
+{
+  text-align: center;
+  color: #4A403A;
+  margin-top: 20px;
+}
+
+.paragraf
+{
+  color: #FFC069;
+  font-size: 10px;
+  font-size: larger;
+}
+
+#yonlendirme
+{
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+.yonlendirme
+{
+  color: #A45D5D;
+  
+}
+.yonlendirme:hover
+{
+  color: black;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  float: left;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.buton
+{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  color: #4A403A;
+  border-color:#4A403A;
+  border-radius: 10px;
+}
+.buton:hover
+{
+  color: #A45D5D;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+}
+
+/* XL */
+@media only screen and (min-width:1200px)
+{
+    body{
+        font-size: 14px;
+    }
+
+    
+}
+
+/* L */
+@media only screen and (min-width:992px) and (max-width:1200px)
+{
+    body{
+        font-size: 14px;
+    }
+}
+
+/* M */
+@media only screen and (min-width:768px) and (max-width:991px)
+{
+    body{
+        font-size: 13px;
+    }
+
+    .card img
+    {
+      height: auto;
+    }
+}
+
+/* S */
+@media only screen and (min-width:576px) and (max-width:767px)
+{
+    body{
+        font-size: 12px;
+    }
+
+    .card img
+    {
+      height: auto;
+    }
+}
+
+/* XS */
+@media only screen and (max-width:575px)
+{
+    body{
+        font-size: 12px;
+    }
+
+    .card img
+    {
+      height: auto;
+    }
+}
+
+#adres
+{
+  font-size: 15px;
+  font-size: larger;
+}
